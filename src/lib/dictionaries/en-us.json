@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "home": {
+    "title": "Welcome to Our Website",
+    "description": "Discover our amazing platform that helps you achieve your goals.",
+    "featuresTitle": "Key Features",
+    "features": [
+      "Easy to use interface",
+      "Multiple language support",
+      "Responsive design",
+      "Fast performance"
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about our company and mission.",
+    "teamTitle": "Our Team",
+    "teamDescription": "We are a dedicated team of professionals working together to create amazing experiences.",
+    "missionTitle": "Our Mission",
+    "missionDescription": "To provide innovative solutions that make a difference in people's lives."
+  }
+}
