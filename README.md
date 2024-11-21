@@ -1,3 +1,5 @@
+# Translate with Pages
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -16,9 +18,20 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying [`src/app/page.tsx`](src/app/page.tsx). The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Project Structure
+
+- `src/app/`: Contains the main application pages and components.
+- `src/lib/`: Contains utility functions and libraries.
+- `src/components/`: Contains reusable UI components.
+- `public/`: Contains static assets like images and icons.
+
+## Localization
+
+The project supports multiple languages. The dictionaries for each language are located in the [`src/lib/dictionaries`](src/lib/dictionaries) directory. The `LanguageSwitcher` component in [`src/components/LanguageSwitcher.js`](src/components/LanguageSwitcher.js) allows users to switch between languages.
 
 ## Learn More
 
