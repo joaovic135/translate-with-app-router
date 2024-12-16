@@ -1,6 +1,6 @@
-# 🌐 Translate with Pages
+# 🌐 Translate with Next.js
 
-Translate with Pages is a multilingual web application built with [Next.js](https://nextjs.org). This project demonstrates how to create a dynamic, multi-language website using Next.js's powerful features, including server-side rendering, static site generation, and internationalization.
+Translate with Next.js is a multilingual web application built with [Next.js](https://nextjs.org). This project demonstrates how to create a dynamic, multi-language website using Next.js's powerful features, including server-side rendering, static site generation, and internationalization.
 
 ## 🚀 Getting Started
 
