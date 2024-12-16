@@ -1,10 +1,34 @@
-# Translate with Pages
+# 🌐 Translate with Pages
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Translate with Pages is a multilingual web application built with [Next.js](https://nextjs.org). This project demonstrates how to create a dynamic, multi-language website using Next.js's powerful features, including server-side rendering, static site generation, and internationalization.
 
-## Getting Started
+## 🚀 Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm, yarn or pnpm.
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/translate-with-pages.git
+cd translate-with-pages
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
@@ -12,38 +36,67 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying [`src/app/page.tsx`](src/app/page.tsx). The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🌍 Multi-language support
+- 🚀 Next.js App Router
+- 💨 Server-side rendering
+- 📱 Responsive design
+- 🔤 Dynamic language switching
 
-## Project Structure
+## 🗂 Project Structure
 
-- `src/app/`: Contains the main application pages and components.
-- `src/lib/`: Contains utility functions and libraries.
-- `src/components/`: Contains reusable UI components.
-- `public/`: Contains static assets like images and icons.
+```
+translate-with-pages/
+│
+├── app/
+│   ├── [lang]/
+│   ├── fonts/
+│   ├── globals.css
+│   └── layout.tsx
+│
+├── lib/
+│   ├── dictionary.js
+│   └── dictionaries/
+│
+├── components/
+│   └── LanguageSwitcher.js
+│
+└── public/
+    ├── images/
+    └── icons/
+```
 
-## Localization
+## 🌍 Localization
 
-The project supports multiple languages. The dictionaries for each language are located in the [`src/lib/dictionaries`](src/lib/dictionaries) directory. The `LanguageSwitcher` component in [`src/components/LanguageSwitcher.js`](src/components/LanguageSwitcher.js) allows users to switch between languages.
+The project supports multiple languages using JSON dictionary files. Each language has its own translation file in the `dictionaries` directory.
 
-## Learn More
+Example translation file (`pt.json`):
+```json
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre"
+  },
+  "home": {
+    "title": "Bem-vindo ao Nosso Site"
+  }
+}
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Learn More
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Next.js Internationalization](https://nextjs.org/docs/app/building-your-application/routing/internationalization)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Deployment
 
-## Deploy on Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/translate-with-pages)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Distributed under the MIT License.
